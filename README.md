@@ -12,3 +12,15 @@
   - Starting Point -> 🚦
   - Finishing Point -> 🏁
   
+  
+- Result:
+
+  - Small Board
+
+    ![Small-Board](https://github.com/manoj-aryal/A-Star-Search-CPP/blob/master/examples/example.png)
+    
+    
+  - Large Board
+
+    ![Small-Board](https://github.com/manoj-aryal/A-Star-Search-CPP/blob/master/examples/large_board.png)
+
