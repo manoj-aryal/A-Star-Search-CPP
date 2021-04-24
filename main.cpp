@@ -172,7 +172,7 @@ void PrintBoard(const vector<vector<State>> board) {
 
 
 int main() {
-  auto board = ReadBoardFile("board.csv");
+  auto board = ReadBoardFile("boards/board.csv");
   int init[2] {0, 0};
   int goal[2] {int(board.size() - 1), int(board[0].size() - 1)};
   auto solution = Search(board, init, goal);

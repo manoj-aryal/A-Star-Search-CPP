@@ -19,7 +19,7 @@ def create_random_grid(rows, cols, difficulty):
     df = df.applymap(lambda x: 0 if x >= difficulty else 1)
     df.iloc[0, 0], df.iloc[-1, -1] = 0, 0
 
-    df.to_csv('board.csv', header=None, index=False, line_terminator=',\n')
+    df.to_csv('boards/board.csv', header=None, index=False, line_terminator=',\n')
 
 
 if __name__ == '__main__':
